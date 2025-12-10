@@ -8,8 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "回到主页": "/",
+      "关于我": "javascript:alert('此页面正在建设中...');void(0)",
+      "BiliBili": "https://space.bilibili.com/57557544",
+      "GitHub仓库": "https://github.com/yysf-brait/Brait-Forge",
     },
   }),
 }
@@ -37,6 +39,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
+    }),
+    Component.RecentNotes({
+      showTags: false,
+      title: "最近更新",
+      limit: 4,
     }),
     Component.Explorer(),
   ],
