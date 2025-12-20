@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       "回到主页": "/",
       "关于我": "javascript:alert('此页面正在建设中...');void(0)",
       "BiliBili": "https://space.bilibili.com/57557544",
-      "GitHub仓库": "https://github.com/yysf-brait/Brait-Forge",
+      "GitHub仓库": "https://github.com/yysf-brait/GDesignForge",
     },
   }),
 }
