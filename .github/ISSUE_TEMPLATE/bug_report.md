@@ -1,40 +1,34 @@
 ---
-name: Bug report
-about: Something about Quartz isn't working the way you expect
+name: 网站故障反馈 (Bug report)
+about: 报告网站的显示错误、功能失效或坏链
 title: ""
 labels: bug
 assignees: ""
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**故障描述 (Describe the bug)**
+请清晰简洁地描述出了什么问题。
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**复现步骤 (To Reproduce)**
+如何触发这个问题：
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. 访问页面 '...'
+2. 点击 '....'
+3. 滚动到 '....'
+4. 看到错误
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**预期行为 (Expected behavior)**
+你原本期望发生什么？
 
-**Screenshots and Source**
-If applicable, add screenshots to help explain your problem.
+**截图 (Screenshots)**
+如果有助于解释问题，请上传截图。
 
-You can help speed up fixing the problem by either
+**设备环境 (Desktop/Mobile):**
+请提供以下信息以便排查：
 
-1. providing a simple reproduction
-2. linking to your Quartz repository where the problem can be observed
+- 操作系统: [例如：Windows 11, iOS 17, Android]
+- 浏览器: [例如：Chrome, Safari, Edge]
+- 设备: [例如：iPhone 14, 电脑]
 
-**Desktop (please complete the following information):**
-
-- Quartz Version: [e.g. v4.1.2]
-- `node` Version: [e.g. v18.16]
-- `npm` version: [e.g. v10.1.0]
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
-
-**Additional context**
-Add any other context about the problem here.
+**其他补充 (Additional context)**
+任何其他你认为有用的背景信息。

@@ -262,3 +262,9 @@ git push origin <你的分支名称> --force
 维护者会审查你的 PR。如果需要修改，你只需在本地继续修改并 Commit，然后再次 Push 到同一个分支即可，PR 会自动更新。
 
 **感谢你的贡献！**
+
+## 致谢
+
+感谢以下开源项目和社区对本项目的支持与帮助：
+
+- [Quartz](https://github.com/jackyzha0/quartz)

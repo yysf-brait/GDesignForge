@@ -1,19 +1,24 @@
 ---
-name: Feature request
-about: Suggest an idea or improvement for Quartz
-title: ""
+name: 建议与选题请求
+about: 对网站功能提出改进建议，或申请新的文章选题
+title: "[建议] "
 labels: enhancement
 assignees: ""
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**建议类型**
+请保留一项，删除另一项：
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+- [ ] 网站功能改进 (Site Improvement)
+- [ ] 新内容/选题请求 (New Content Request)
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**你的想法是？**
+请清晰简洁地描述你希望增加的功能，或者你希望看到的文章主题。
+例如：“我希望网站增加夜间模式” 或 “希望能分析一下肉鸽游戏的随机性算法”。
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**为什么要添加这个？**
+这能解决什么痛点，或者为什么这个知识点值得分享？
+例如：“现在的白色背景太刺眼” 或 “目前中文互联网缺乏关于这个系统的深度拆解”。
+
+**补充信息**
+任何其他的参考资料、截图、类似网站的链接等。
