@@ -76,27 +76,46 @@ export default ((userOpts?: Partial<Options>) => {
           mapFn: opts.mapFn.toString(),
         })}
       >
-        <button
-          type="button"
-          class="explorer-toggle mobile-explorer hide-until-loaded"
-          data-mobile={true}
-          aria-controls={id}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide-menu"
+        <div class="mobile-explorer-header">
+          <button
+            type="button"
+            class="explorer-toggle mobile-explorer hide-until-loaded"
+            data-mobile={true}
+            aria-expanded={false}
+            aria-controls={id}
           >
-            <line x1="4" x2="20" y1="12" y2="12" />
-            <line x1="4" x2="20" y1="6" y2="6" />
-            <line x1="4" x2="20" y1="18" y2="18" />
-          </svg>
-        </button>
+            <span class="mobile-toggle-icon menu" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide-menu"
+              >
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" />
+              </svg>
+            </span>
+            <span class="mobile-toggle-icon back" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide-chevron-left"
+              >
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+            </span>
+          </button>
+        </div>
         <button
           type="button"
           class="title-button explorer-toggle desktop-explorer"
@@ -119,6 +138,9 @@ export default ((userOpts?: Partial<Options>) => {
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
+        <h2 class="mobile-explorer-title">
+          {opts.title ?? i18n(cfg.locale).components.explorer.title}
+        </h2>
         <div id={id} class="explorer-content" aria-expanded={false} role="group">
           <OverflowList class="explorer-ul" />
         </div>
