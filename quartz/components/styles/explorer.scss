@@ -368,6 +368,9 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
     transform: translateX(0);
     visibility: visible;
     opacity: 1;
+  }
+
+  .page > #quartz-body .sidebar.left:has(.explorer.user-toggled:not(.collapsed)) {
     animation: sidebar-slide-in 220ms ease;
   }
 

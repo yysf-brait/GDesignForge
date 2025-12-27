@@ -34,6 +34,7 @@ function setExplorerExpandedState(explorer: HTMLElement, expanded: boolean) {
 function toggleExplorer(this: HTMLElement) {
   const nearestExplorer = this.closest(".explorer") as HTMLElement
   if (!nearestExplorer) return
+  nearestExplorer.classList.add("user-toggled")
   const explorerCollapsed = nearestExplorer.classList.toggle("collapsed")
   const expanded = !explorerCollapsed
   setExplorerExpandedState(nearestExplorer, expanded)
