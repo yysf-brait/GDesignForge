@@ -40,11 +40,12 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.RecentNotes({
+    // 手机端显示最近更新会导致样式混乱，故仅桌面端显示
+    Component.DesktopOnly(Component.RecentNotes({
       showTags: false,
       title: "最近更新",
       limit: 4,
-    }),
+    })),
     Component.Explorer(),
   ],
   right: [
