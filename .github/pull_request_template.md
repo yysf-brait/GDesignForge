@@ -16,7 +16,7 @@
 - [ ] `perf`: 性能优化 (code changes that improve performance)
 - [ ] `test`: 测试相关 (adding missing tests, refactoring tests)
 - [ ] `chore`: 构建过程或辅助工具的变动 (maintain)
-- [ ] `feat(content)`: 网站内容更新 (e.g. 撰写了新文章)
+- [ ] `article`: 网站内容更新 (e.g. 撰写了新文章)
 
 ## 详细描述
 
